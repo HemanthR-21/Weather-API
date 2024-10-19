@@ -7,8 +7,7 @@ export default function SearchBox({ updateInfo }) {
     let [city, setCity] = useState("");
     let [error, setError] = useState(false);
 
-    const API_URL = "https://weather.visualcrossing.com/VisualCrossingWebServices/rest/services/timeline";
-    const API_KEY = "7UU74PFSD9BPVRDAV3X6KEENV";
+
 
     let getWeatherInfo = async () => {
         try {
